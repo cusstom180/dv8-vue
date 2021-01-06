@@ -3,15 +3,16 @@
 </template>
 
 <script>
+import { reactive } from "vue";
 
 export default {
-    name: "OpeningImage",
+  name: "OpeningImage",
   components: {},
   setup() {
     const state = reactive({
       img1: {
         key: 1,
-        image: require("@/assets/gettingstarted.jpg"),
+        image: require("@/assets/2019-01-30-0259.jpg"),
         alt: "image 1",
       }
     });
@@ -25,6 +26,6 @@ export default {
 
 <style lang="scss" scoped>
 
-   
+  
 
 </style>
