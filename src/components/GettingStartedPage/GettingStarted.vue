@@ -8,14 +8,14 @@
 
 <script>
 // import GettingStartedContent from '@/components/GettingStartedPage/GettingStartedContent'
-import OpeningImage from '@/components/GettingStartedPage/OpeningImage'
+import GetStartOpeningImage from '@/components/GettingStartedPage/GetStartOpeningImage'
 import GettingStartedPanel from '@/components/GettingStartedPage/GettingStartedPanel'
 
 export default {
     name: 'GettingStarted',
     components: {
         // 'v-GettingStartedContent': GettingStartedContent,
-        'v-OpeningImage': OpeningImage,
+        'v-OpeningImage': GetStartOpeningImage,
         'v-GettingStartedPanel': GettingStartedPanel,
     }
 }

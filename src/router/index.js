@@ -4,7 +4,7 @@ import HelloWorld from '../components/HelloWorld'
 import GettingStarted from '../components/GettingStartedPage/GettingStarted'
 import Schedule from '@/components/SchedulePage/Schedule'
 import Membership from '../components/MembershipPage/Membership'
-import About from '@/components/About'
+import About from '@/components/AboutPage/About'
 
 const routes = [
   {

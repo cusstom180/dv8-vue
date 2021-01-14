@@ -6,7 +6,7 @@
 import { reactive } from "vue";
 
 export default {
-  name: "OpeningImage",
+  name: "AboutOpeningImage",
   components: {},
   setup() {
     const state = reactive({
@@ -25,7 +25,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-  
 
 </style>
